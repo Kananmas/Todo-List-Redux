@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+
+
+button {
+    background-color: green;
+    border-radius: 4px;
+    color: wheat;
+}
+
+button:hover{
+    background-color: rgb(169, 162, 34);
+    border-radius: 4px;
+    color: wheat;
+}
+
+ label {
+    font-size: 20px;
+}
+
+ label input {
+    border-radius: 4px;
+}
+
+#Todo-list{
+    margin-top: 4%;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 2%;
+}
+
+.todo-item{
+    padding: 1.12%;
+    font-size: 18px;
+    border: 2px solid grey;
+    text-align: left;
+    border-radius: 12px
+}
+.todo-item span{
+    padding-left: 1.12%;
+}
+
+.todo-item .todo-check{
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+.todo-item button{
+    float: right;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    border-radius: 50%;
+}
